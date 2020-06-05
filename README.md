@@ -1,7 +1,8 @@
 # ansible-demo-playbooks
 Ansible demo playbooks
 
-## A docker-compose yml 
+## A docker-compose yml
+```yml
 version: '2'
 services:
   mariadb:
@@ -32,4 +33,5 @@ volumes:
     driver: local
   moodle_data:
     driver: local
+```
 
